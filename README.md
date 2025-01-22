@@ -88,7 +88,7 @@ huggingface-cli login
 
 ## 🗂️ Dataset (ScanAlign)
 
-| Function             | Model size           | Local Dir                                                        |
+| Function             | Huggingface Dataset Link       | Local Dir                                                        |
 | ---------------------| -------------------- | ----------------------------------------------------------------|
 | **Validation Dataset**  | [alexzyqi/GPT4Scene-Val-Dataset](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Dataset) | ./data/ |
 | **Validation Annotations** | [alexzyqi/GPT4Scene-Val-Annotation](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Annotation)                 |  ./evaluate/annotation/   |
@@ -99,7 +99,26 @@ You can download all trained model weights, dataset and annotations by
 python download.py
 ```
 
+The folder structure is as follows.
 
+```plaintext
+GPT4Scene
+├── data
+│   ├── annotation
+│   │   ├── images_2D
+│   │   ├── images_3D
+├── evaluate
+│   ├── annotation
+│   │   ├── multi3dref_mask3d_val.json
+│   │   ├── ...
+│   │   └── sqa3d_val.json
+│   ├── ...
+│   └── utils
+├── model_outputs
+│   └── GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512
+├── ...
+└── README.md
+```
 
 ## 🚀 Inference
 
