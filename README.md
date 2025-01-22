@@ -4,8 +4,8 @@
 <div style="text-align: center;">
   <p class="title is-5 mt-2 authors"> 
     <a href="https://scholar.google.com/citations?user=kwVLpo8AAAAJ&hl=en/" target="_blank">Zhangyang Qi</a><sup>1,2*</sup>, 
-    <a href="https://xh-liu.github.io/" target="_blank">Zhixiong Zhang</a><sup>2*</sup>, 
-    <a href="https://xh-liu.github.io/" target="_blank">Ye Fang</a><sup>2</sup>, 
+    <a href="https://github.com/rookiexiong7" target="_blank">Zhixiong Zhang</a><sup>2*</sup>, 
+    <a href="https://github.com/Aleafy" target="_blank">Ye Fang</a><sup>2</sup>, 
     <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>2&#9993;</sup>&#9993;,
     <a href="https://hszhao.github.io/" target="_blank">Hengshuang Zhao</a><sup>1&#9993;</sup>
   </p>
@@ -31,13 +31,13 @@
   <a href="https://arxiv.org/abs/2501.01428" target='_**blank**'>
     <img src="https://img.shields.io/badge/arXiv-2501.01428📖-bron?">
   </a> 
-  <a href="https://tailor3d-2024.github.io/" target='_blank'>
+  <a href="https://gpt4scene.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project%20page-&#x1F680-yellow">
   </a>
   <a href="https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512" target='_blank'>
     <img src="https://img.shields.io/badge/Huggingface%20Models-🤗-blue">
   </a>
-  <a href="https://youtu.be/z9w5CN8mUJQ" target='_blank'>
+  <a href="https://x.com/Qi_Zhangyang" target='_blank'>
     <img src="https://img.shields.io/twitter/follow/Qi_Zhangyang">
   </a>
 </p>
