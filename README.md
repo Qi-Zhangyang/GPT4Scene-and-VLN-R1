@@ -65,7 +65,7 @@ cd GPT4Scene
 pip install -e ".[torch,metrics]"
 ```
 
-一些时候，这样下载的pytorch可能会出现报错。这个时候需要自行安装[pytorch](https://pytorch.org/)。
+Sometimes, the PyTorch downloaded this way may encounter errors. In such cases, you need to manually install [Pytorch](https://pytorch.org/).
 
 ```bash
 conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.1 -c pytorch -c nvidia
