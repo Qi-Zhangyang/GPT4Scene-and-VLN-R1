@@ -1,5 +1,5 @@
 
-# <img src="data/logo.png" alt="Icon" width="100" height="50"> GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
+# <img src="./logo.png" alt="Icon" width="100" height="50"> GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
 
 <div style="text-align: center;">
   <p class="title is-5 mt-2 authors"> 
