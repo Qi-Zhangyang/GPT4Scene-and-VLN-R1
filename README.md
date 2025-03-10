@@ -44,7 +44,9 @@
 
 ## 🔥 News
 
-[2025/01/21] We release the **[code](https://github.com/Qi-Zhangyang/GPT4Scene)**，**[validation dataset](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Dataset)** and **[model weights](https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512)**.
+[2025/03/10] We release the **[training and validation dataset](https://huggingface.co/datasets/alexzyqi/GPT4Scene-All)** and training code.
+
+[2025/01/21] We release the **[code](https://github.com/Qi-Zhangyang/GPT4Scene)** validation datasetand **[model weights](https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512)**.
 
 [2025/01/01] We release the **[GPT4Scene](https://arxiv.org/abs/2501.01428)** paper in arxiv. (**The first paper in 2025! 🎇🎇🎇**).
 
@@ -90,7 +92,7 @@ huggingface-cli login
 
 | Function             | Huggingface Dataset Link       | Local Dir                                                        |
 | ---------------------| -------------------- | ----------------------------------------------------------------|
-| **Validation Dataset**  | [alexzyqi/GPT4Scene-Val-Dataset](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Dataset) | ./data/ |
+| **Train and Val Dataset and Train Annotations**  | [alexzyqi/GPT4Scene-All](https://huggingface.co/datasets/alexzyqi/GPT4Scene-All) | ./data/ |
 | **Validation Annotations** | [alexzyqi/GPT4Scene-Val-Annotation](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Annotation)                 |  ./evaluate/annotation/   |
 
 You can download all trained model weights, dataset and annotations by 
@@ -103,10 +105,14 @@ The folder structure is as follows.
 
 ```plaintext
 GPT4Scene
+├── ckpts
+│   ├── Qwen2-VL-7B-Instruct
 ├── data
 │   ├── annotation
 │   │   ├── images_2D
 │   │   ├── images_3D
+│   │   ├── sharegpt_data_chat_scene_8_images_3D_mark.json
+│   │   ├── sharegpt_data_chat_scene_32_images_3D_mark.json
 ├── evaluate
 │   ├── annotation
 │   │   ├── multi3dref_mask3d_val.json
@@ -136,8 +142,65 @@ srun -p XXX --gres=gpu:4 --time=4-00:00:00 sh evaluate/infer.sh
 
 ## 🏗️ Training
 
-We will release the training code soon.
+You can run the slurm code.
 
+```bash
+bash qwen2vl_7b_full_sft_mark_32_3D_img512.sh
+```
+
+
+Also, you can run the torchrun code.
+
+```bash
+export NNODES=1
+export num_gpus=8
+export WANDB_DISABLED=true
+export full_batch_size=16
+export batch_size=1
+export gradient_accumulation_steps=$[$full_batch_size/($batch_size*$num_gpus*$NNODES)]
+export CPUS_PER_TASK=20
+export MASTER_PORT=$((RANDOM % 101 + 29400))
+
+export output_dir=model_outputs/${name}/
+export model_name_or_path=./ckpts/models--Qwen--Qwen2-VL-7B-Instruct/
+export tokenized_path=tokenizer/qwen2vl_full_sft_mark_32_3D_img512/
+
+torchrun \
+    --nnodes $NNODES \
+    --nproc_per_node ${num_gpus:-1} \
+    --node_rank="${SLURM_NODEID}" \
+    --master_addr=$(scontrol show hostname $SLURM_NODELIST | head -n1) \
+    --master_port=$MASTER_PORT \
+    src/train.py \
+    --tokenized_path $tokenized_path \
+    --model_name_or_path $model_name_or_path \
+    --do_train true \
+    --deepspeed examples/deepspeed/ds_z3_config.json \
+    --stage sft \
+    --finetuning_type full \
+    --dataset sharegpt_data_chat_scene_32_images_3D_mark \
+    --image_resolution 512 \
+    --template qwen2_vl \
+    --cutoff_len 32768 \
+    --overwrite_cache true \
+    --preprocessing_num_workers 16 \
+    --output_dir $output_dir \
+    --num_train_epochs 1.0 \
+    --logging_steps 10 \
+    --save_steps 4000 \
+    --save_total_limit 1 \
+    --per_device_train_batch_size $batch_size \
+    --gradient_accumulation_steps $gradient_accumulation_steps \
+    --learning_rate 5.0e-6 \
+    --lr_scheduler_type cosine \
+    --warmup_ratio 0.1 \
+    --bf16 true \
+    --ddp_timeout 180000000 \
+    --flash_attn fa2 \
+    --report_to none
+```
+
+Please note that the initial run requires the tokenizer. It is recommended to disable the GPU initially and proceed with training after the tokenizer has completed.
 
 
 ## ⚖️ License
