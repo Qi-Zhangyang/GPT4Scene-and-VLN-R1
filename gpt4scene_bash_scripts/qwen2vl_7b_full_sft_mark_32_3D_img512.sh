@@ -5,37 +5,26 @@ export NCCL_DEBUG=INFO
 
 name="qwen2vl_7b_full_sft_mark_32_3D_img512"
 
+export PYTHONPATH=.
 export NNODES=1
 export num_gpus=8
 export WANDB_DISABLED=true
-export full_batch_size=16
+export full_batch_size=64
 export batch_size=1
 export gradient_accumulation_steps=$[$full_batch_size/($batch_size*$num_gpus*$NNODES)]
-export CPUS_PER_TASK=20
+
+export MASTER_ADDR=${MLP_WORKER_0_HOST:-127.0.0.1}
 export MASTER_PORT=$((RANDOM % 101 + 29400))
 
-export output_dir=model_outputs/${name}/
-export model_name_or_path=./ckpts/models--Qwen--Qwen2-VL-7B-Instruct/
-export tokenized_path=tokenizer/qwen2vl_full_sft_mark_32_3D_img512/
+export output_dir=outputs/vlnce/${name}/
+export model_name_or_path=ckpts/models--Qwen--Qwen2-VL-7B-Instruct
+export tokenized_path=tokenizers/${name}/
 
-## slurm
-export PARTITION=mllm
-export JOB_NAME=gpt4scene
-export QUOTA_TYPE=reserved
-
-srun -p ${PARTITION} \
-    --job-name=${JOB_NAME} \
-    --gres=gpu:${num_gpus} \
-    --time=2-00:00:00 \
-    --quota=$QUOTA_TYPE \
-    --nodes=${NNODES} \
-    --ntasks-per-node=1 \
-    --cpus-per-task=${CPUS_PER_TASK} \
-    bash -c 'torchrun \
+bash -c 'torchrun \
     --nnodes $NNODES \
     --nproc_per_node ${num_gpus:-1} \
-    --node_rank="${SLURM_NODEID}" \
-    --master_addr=$(scontrol show hostname $SLURM_NODELIST | head -n1) \
+    --node_rank=0 \
+    --master_addr=$MASTER_ADDR \
     --master_port=$MASTER_PORT \
     src/train.py \
     --tokenized_path $tokenized_path \

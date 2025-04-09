@@ -18,8 +18,6 @@ import subprocess
 import sys
 from enum import Enum, unique
 
-import sys
-sys.path.append('.')
 from . import launcher
 from .api.app import run_api
 from .chat.chat_model import run_chat
@@ -121,6 +119,3 @@ def main():
         print(USAGE)
     else:
         raise NotImplementedError(f"Unknown command: {command}.")
-
-if __name__ == "__main__":
-    main()

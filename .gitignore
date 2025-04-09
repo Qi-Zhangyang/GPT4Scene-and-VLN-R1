@@ -167,12 +167,17 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ruff stuff:
+.ruff_cache/
+
 # PyPI configuration file
 .pypirc
 
+# 
+# datasets, outputs, tokenizers
+./outputs/
+./data/
+./tokenizers/
+/ckpts
 
-### Dataset, MOdel weights, Annotations & Results
-data/
-evaluate/annotation/
-eval_outputs/
-model_outputs/
+.vscode/
