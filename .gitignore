@@ -175,9 +175,10 @@ cython_debug/
 
 # 
 # datasets, outputs, tokenizers
-./outputs/
-./data/
+/outputs/
+/data/
 ./tokenizers/
 /ckpts
+/evaluate/annotation/
 
-.vscode/
+/.vscode/
