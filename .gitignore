@@ -179,6 +179,5 @@ cython_debug/
 /data/
 /tokenizers/
 /ckpts
-/evaluate/annotation/
 
 /.vscode/

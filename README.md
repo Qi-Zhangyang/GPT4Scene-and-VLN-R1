@@ -93,7 +93,6 @@ huggingface-cli login
 | Function             | Huggingface Dataset Link       | Local Dir                                                        |
 | ---------------------| -------------------- | ----------------------------------------------------------------|
 | **Train and Val Dataset and Train Annotations**  | [alexzyqi/GPT4Scene-All](https://huggingface.co/datasets/alexzyqi/GPT4Scene-All) | ./data/ |
-| **Validation Annotations** | [alexzyqi/GPT4Scene-Val-Annotation](https://huggingface.co/datasets/alexzyqi/GPT4Scene-Val-Annotation)                 |  ./evaluate/annotation/   |
 
 You can download all trained model weights, dataset and annotations by 
 
