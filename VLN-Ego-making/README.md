@@ -1,6 +1,6 @@
 # VLN-Ego (Dataset for VLN-R1) Production Process
 
-<span style="color: red;">The fully processed dataset is available on [Hugging Face (alexzyqi/VLN-Ego)](https://huggingface.co/datasets/alexzyqi/VLN-Ego/), and you can directly download and unzip it. This page mainly demonstrates the production process of this dataset.</span>
+🌌🌌🌌The fully processed dataset is available on [Hugging Face (alexzyqi/VLN-Ego)](https://huggingface.co/datasets/alexzyqi/VLN-Ego/), and you can directly download and unzip it. This page mainly demonstrates the production process of this dataset.
 
 VLN-Ego is created using [VLN-CE](https://jacobkrantz.github.io/vlnce/). Essentially, we utilize two trajectory sets from VLN-CE: Room-to-Room (**R2R**) and Room-Across-Room (**RxR**), and render ego-centric videos (in the form of frame-by-frame images) in [Habitat-Sim](https://github.com/facebookresearch/habitat-sim/tree/v0.1.7).
 
