@@ -1,5 +1,49 @@
 
-# <img src="./logo.png" alt="Icon" width="100" height="50"> GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
+## <img src="./assets/vlnr1_logo.png" alt="Icon" width="70" height="70"> VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning
+
+<div style="text-align: center;">
+  <p class="title is-5 mt-2 authors"> 
+    <a href="https://scholar.google.com/citations?user=kwVLpo8AAAAJ&hl=en/" target="_blank">Zhangyang Qi</a><sup>1,2*</sup>, 
+    <a href="https://github.com/rookiexiong7" target="_blank">Zhixiong Zhang</a><sup>2*</sup>, 
+    <a href="https://i.cs.hku.hk/~yzyu/publication/" target="_blank">Yizhou Yu</a><sup>1</sup>, 
+    <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>2&#9993;</sup>,
+    <a href="https://hszhao.github.io/" target="_blank">Hengshuang Zhao</a><sup>1&#9993;</sup>
+  </p>
+</div>
+
+<div style="text-align: center;">
+    <!-- contribution -->
+    <p class="subtitle is-5" style="font-size: 1.0em; text-align: center;">
+        <sup>*</sup> Equation Contribution,
+        <sup>&#9993;</sup> Corresponding Authors,
+    </p>
+</div>
+
+<div style="text-align: center;">
+  <!-- affiliations -->
+  <p class="subtitle is-5" style="font-size: 1.0em; text-align: center;"> 
+    <sup>1</sup> The University of Hong Kong, 
+    <sup>2</sup> Shanghai AI Laboratory,
+  </p>
+</div>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2506.17221" target='_**blank**'>
+    <img src="https://img.shields.io/badge/arXiv-2501.01428📖-bron?">
+  </a> 
+  <a href="https://vlnr1.github.io/" target='_blank'>
+    <img src="https://img.shields.io/badge/Project%20page-&#x1F680-yellow">
+  </a>
+  <a href="https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/" target='_blank'>
+    <img src="https://img.shields.io/badge/Huggingface%20Datasets-🤗-blue">
+  </a>
+  <a href="https://x.com/Qi_Zhangyang" target='_blank'>
+    <img src="https://img.shields.io/twitter/follow/Qi_Zhangyang">
+  </a>
+</p>
+
+
+## <img src="./assets/gptscene_logo.png" alt="Icon" width="80" height="40"> GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
 
 <div style="text-align: center;">
   <p class="title is-5 mt-2 authors"> 
@@ -43,6 +87,10 @@
 </p>
 
 ## 🔥 News
+
+[2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and data generation code for **VLN-R1**.
+
+[2025/06/20] We release the **[VLN-R1](https://arxiv.org/abs/2506.17221)** paper in arxiv.
 
 [2025/03/10] We release the **[training and validation dataset](https://huggingface.co/datasets/alexzyqi/GPT4Scene-All)** and training code.
 
@@ -172,6 +220,15 @@ If this work is helpful, please kindly cite as:
   title={GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models},
   author={Zhangyang Qi and Zhixiong Zhang and Ye Fang and Jiaqi Wang and Hengshuang Zhao},
   journal={arXiv:2501.01428},
+  year={2025}
+}
+```
+
+```bibtex
+@article{VLNR1,
+  title={VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning},
+  author={Zhangyang Qi and Zhixiong Zhang and Yizhou Yu and Jiaqi Wang and Hengshuang Zhao},
+  journal={arXiv:2506.17221},
   year={2025}
 }
 ```
