@@ -88,7 +88,7 @@
 
 ## 🔥 News
 
-[2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and data generation code for **VLN-R1**.
+[2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and **[data generation code](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)** for **VLN-R1**.
 
 [2025/06/20] We release the **[VLN-R1](https://arxiv.org/abs/2506.17221)** paper in arxiv.
 
@@ -98,6 +98,17 @@
 
 [2025/01/01] We release the **[GPT4Scene](https://arxiv.org/abs/2501.01428)** paper in arxiv. (**The first paper in 2025! 🎇🎇🎇**).
 
+
+## 🔥 Note
+This code currently focuses on GPT4Scene. We will merge the SFT section of VLN-R1 with GPT4Scene in the future. The following shows the open-source status of VLN-R1:
+
+| Task | Status |
+|------|--------|
+| VLN-R1 training data | ✅ Completed |
+| VLN-R1 dataset production process | ✅ Completed |
+| VLN-R1 SFT training section | 🔄 In progress |
+| VLN-R1 testing section (including engine) | 🔄 In progress |
+| VLN-R1 RFT section | 🔄 In progress |
 
 
 ## 🔧 Installation
