@@ -99,7 +99,7 @@
 [2025/01/01] We release the **[GPT4Scene](https://arxiv.org/abs/2501.01428)** paper in arxiv. (**The first paper in 2025! 🎇🎇🎇**).
 
 
-## 🔥 Note
+## 🌟 Note
 This code currently focuses on GPT4Scene. We will merge the SFT section of VLN-R1 with GPT4Scene in the future. The following shows the open-source status of VLN-R1:
 
 | Task | Status |
