@@ -1,0 +1,1881 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations:  (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, C. Turn right 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_1.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "C. Turn right 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_2.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_5.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_47.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_47.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_49.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_9.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_49.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_50.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_50.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_51.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_47.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_51.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_52.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_6.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_13.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_52.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_53.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_17.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_49.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_53.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_54.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_10.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_50.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_54.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_55.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_47.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_51.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_55.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_56.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_14.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_18.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_52.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_56.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_57.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_22.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_26.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_49.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_53.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_57.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_58.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_30.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_34.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_38.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_50.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_54.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_58.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_59.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, B. Turn left 30 degrees, A. Move forward 25 cm, D. Stop"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_3.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_7.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_11.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_15.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_19.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_23.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_27.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_31.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_35.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_39.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_43.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_47.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_51.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_55.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_59.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_60.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "B. Turn left 30 degrees, A. Move forward 25 cm, D. Stop, D. Stop"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_52.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_56.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_60.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_61.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "A. Move forward 25 cm, D. Stop, D. Stop, D. Stop"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_32.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_36.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_40.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_44.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_48.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_52.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_56.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_61.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_62.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "D. Stop, D. Stop, D. Stop, D. Stop"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_20.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_24.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_28.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_41.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_45.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_49.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_53.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_57.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_62.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_63.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Imagine you are a robot designed for navigation tasks. Your instruction is 'Leave the room, go right and continue to the hallway. Take a left at the end of the hallway, enter the room and stop in the doorway.'.\nYou are provided with:\n- Historical observations: <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> (if there are more than 16 frames, only 16 frames will be selected evenly from the total history)\n- Current observation: <image>\n\nYour task is to select the next four action based on this information.\nOptions:\nA. Move forward 25 cm.\nB. Turn left 30 degrees.\nC. Turn right 30 degrees.\nD. Stop.\n\nAnswer the formatting requirements:\n1. must contain four action predictions\n2. use full option text\n3. be separated by commas\n4. example: “A. Move forward 25 cm, B. Turn left 30 degrees, C. Turn right 30 degrees, D. Stop"
+      },
+      {
+        "from": "gpt",
+        "value": "D. Stop, D. Stop, D. Stop, D. Stop"
+      }
+    ],
+    "images": [
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_0.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_4.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_8.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_12.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_16.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_21.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_25.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_29.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_33.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_37.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_42.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_46.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_50.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_54.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_58.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_63.jpg",
+      "VLN-Ego/data/r2r_training_rgb/ep_2849/traj_1871/step_64.jpg"
+    ]
+  }
+]
