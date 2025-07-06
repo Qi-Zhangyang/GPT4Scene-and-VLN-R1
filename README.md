@@ -88,7 +88,7 @@
 
 ## 🔥 News
 
-[2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and **[data generation code](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)** for **VLN-R1**.
+[2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and **[data generation code](https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1/tree/main/VLN-Ego-making)** for **VLN-R1**.
 
 [2025/06/20] We release the **[VLN-R1](https://arxiv.org/abs/2506.17221)** paper in arxiv.
 
