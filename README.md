@@ -29,7 +29,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2506.17221" target='_**blank**'>
-    <img src="https://img.shields.io/badge/arXiv-2501.01428📖-bron?">
+    <img src="https://img.shields.io/badge/arXiv-2506.17221📖-bron?">
   </a> 
   <a href="https://vlnr1.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project%20page-&#x1F680-yellow">
