@@ -4,7 +4,7 @@
 <div style="text-align: center;">
   <p class="title is-5 mt-2 authors"> 
     <a href="https://scholar.google.com/citations?user=kwVLpo8AAAAJ&hl=en/" target="_blank">Zhangyang Qi</a><sup>1,2*</sup>, 
-    <a href="https://github.com/rookiexiong7" target="_blank">Zhixiong Zhang</a><sup>2*</sup>, 
+    <a href="https://github.com/rookiexiong7" target="_blank">Zhixiong Zhang</a><sup>2</sup>, 
     <a href="https://i.cs.hku.hk/~yzyu/publication/" target="_blank">Yizhou Yu</a><sup>1</sup>, 
     <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>2&#9993;</sup>,
     <a href="https://hszhao.github.io/" target="_blank">Hengshuang Zhao</a><sup>1&#9993;</sup>
