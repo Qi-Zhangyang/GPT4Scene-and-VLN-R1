@@ -43,7 +43,7 @@
 </p>
 
 
-## <img src="./assets/gptscene_logo.png" alt="Icon" width="80" height="40"> GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
+## <img src="./assets/gptscene_logo.png" alt="Icon" width="80" height="40"> [ICLR 2026] GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models
 
 <div style="text-align: center;">
   <p class="title is-5 mt-2 authors"> 
@@ -87,6 +87,8 @@
 </p>
 
 ## 🔥 News
+
+[2026/01/26] GPT4Scene is accepted to ICLR 2026!
 
 [2025/07/06] We have released the **[training data](https://huggingface.co/datasets/alexzyqi/VLN-R1-datasets/)**, **[tokenizers](https://huggingface.co/datasets/alexzyqi/GPT4Scene_VLN-R1_tokenizers/)** and **[data generation code](https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1/tree/main/VLN-Ego-making)** for **VLN-R1**.
 
